@@ -1,0 +1,149 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Piazzolla', serif;
+    }
+    
+    .header {
+        position: fixed;
+        top: -1vh;
+        width: 100%;
+        height: 60px;
+        background: rgb(1, 5, 26);
+        color: white;
+    }
+    
+    li {
+        position: relative;
+        left: 160vh;
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .logo_img1 {
+        position: absolute;
+        left: 5.8vh;
+        top: 1.9vh;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        animation: logoani 1s infinite;
+        animation-direction: initial;
+        animation-timing-function: linear;
+    }
+    
+    .logo_text {
+        position: absolute;
+        left: 13vh;
+        top: 2.6vh;
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Piazzolla', serif;
+    }
+    
+    .logo_img2 {
+        position: absolute;
+        left: 31vh;
+        top: 1.9vh;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        animation: logoani 1s infinite;
+        animation-direction: initial;
+        animation-timing-function: linear;
+    }
+    
+    footer {
+        position: fixed;
+        top: 92%;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height: 60px;
+        background: rgb(1, 5, 26);
+        color: white;
+    }
+    /* animation */
+    
+    @keyframes logoani {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .footer_text {
+        display: block;
+        margin: auto;
+    }
+    
+    .body_image {
+        position: relative;
+        top: 20vh;
+        left: 30vh;
+        width: 50vh;
+        height: 60vh;
+        border: 0px solid black;
+    }
+    
+    button {
+        position: relative;
+        bottom: 0vh;
+        left: 0vh;
+        width: 100px;
+        height: 50px;
+        border: 0px solid black;
+        border-radius: 40px;
+        box-shadow: -4px 4px 4px rgba(10, 10, 10, 0.3);
+        padding: 5px;
+        transition: 1s;
+        color: black;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        box-shadow: 5px -5px 4px rgba(10, 10, 10, 0.3);
+    }
+    
+    .body_text {
+        width: 50%;
+        height: 50vh;
+        border: 0px solid black;
+        overflow: hidden;
+        margin-top: -40vh;
+        margin-left: 100vh;
+    }
+    
+    .body_text_p {
+        position: absolute;
+        top: 10vh;
+        left: 50%;
+    }
+    
+    .body_text p {
+        font-size: 20px;
+        margin-top: 17vh;
+        margin-bottom: 2vh;
+        font-weight: lighter;
+    }
+    
+    .body_h1 {
+        font-size: 28px;
+        font-weight: lighter;
+        margin-bottom: 2vh;
+    }
+    /* color text means inside body tag color text  in the body*/
+    
+    .color_text {
+        color: rgb(11, 91, 138);
+    }
